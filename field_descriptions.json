@@ -1,0 +1,92 @@
+[
+  {
+    "field": "id",
+    "datatype": "categorical",
+    "type": "character",
+    "unique": false
+  },
+  {
+    "field": "pub_date",
+    "datatype": "categorical",
+    "type": "integer",
+    "unique": true
+  },
+  {
+    "field": "language",
+    "datatype": "categorical",
+    "type": "character",
+    "unique": true
+  },
+  {
+    "field": "access_profile",
+    "datatype": "categorical",
+    "type": "character",
+    "unique": true
+  },
+  {
+    "field": "genre",
+    "datatype": "categorical",
+    "type": "character",
+    "unique": false
+  },
+  {
+    "field": "contributor",
+    "datatype": "categorical",
+    "type": "character",
+    "unique": false
+  },
+  {
+    "field": "handle_url",
+    "datatype": "categorical",
+    "type": "character",
+    "unique": false
+  },
+  {
+    "field": "lcc",
+    "datatype": "categorical",
+    "type": "character",
+    "unique": false
+  },
+  {
+    "field": "source_institution",
+    "datatype": "categorical",
+    "type": "character",
+    "unique": false
+  },
+  {
+    "field": "pub_place",
+    "datatype": "categorical",
+    "type": "character",
+    "unique": false
+  },
+  {
+    "field": "title",
+    "datatype": "categorical",
+    "type": "text",
+    "unique": true
+  },
+  {
+    "field": "publisher",
+    "datatype": "categorical",
+    "type": "character",
+    "unique": false
+  },
+  {
+    "datatype": "searchstring",
+    "field": "searchstring",
+    "unique": false,
+    "type": "text"
+  },
+  {
+    "datatype": "categorical",
+    "type": "character",
+    "field": "third",
+    "unique": true
+  },
+  {
+    "datatype": "categorical",
+    "type": "character",
+    "field": "sixth",
+    "unique": true
+  }	
+]
